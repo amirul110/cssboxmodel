@@ -1,0 +1,22 @@
+div{
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box; /*membuat ukuran lebar tetap 200 ,tidak berpengaruh terhadap nilai padding,border */
+    margin: 10px auto;
+  
+}
+.satu{
+ 
+   
+    background-color: rgb(161, 161, 216);
+    padding: 80px;
+    border: 10px solid red;
+}
+
+.dua{
+    background-color: blueviolet;
+
+    border:30px dashed lightgray;
+    padding: 10px;
+}
+

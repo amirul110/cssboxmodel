@@ -1,0 +1,13 @@
+/*border dapat menambahkan ukuran padding/kotak ukuran background 
+
+total dimensi = width/height + padding + border
+
+biasa yang diatur hanya lebar tinggi tidak*/
+div{
+    border:30px;
+    border-style:double;
+    background-color: brown;
+    margin-top: 50px;
+    border-color: green;
+    border-right: 5px dashed blue;
+}

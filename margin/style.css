@@ -1,0 +1,28 @@
+/*margin adalah are terluar dari box model yang akan berhubungan secara langsung dengan box model elemet lain 
+nilai margin 1 tidak bisa menambahkan nilai margin 2 jika atas bawah
+contoh : jika ada elemet 1 margin ke bawah 10px dan elemet ke2 yang berada dibawahnya margin-top 30px,bukan berarti margin antara kedua jarak adalah 40px
+margin yang diambil adalah niai yang paling besar*/
+
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-left: 100px;
+    margin-top:40px;
+    margin-bottom:150px;
+    margin-right: 90px;
+}
+
+
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin-top: 70px;
+}
+
+.tiga{
+    width:50px;
+    height: 50px;
+    background-color: violet;
+}

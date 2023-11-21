@@ -1,0 +1,22 @@
+/* properti box model
+margin : area transptaran di sekitar kotak (diluar border)
+border : batas disekeliling content dan padding
+padingg : area transparan di dalam kotak (antara content dan border)
+content : konten yang sebenarnya yang dibuat ,bisa berupa teks atau gambar
+ padding digunakan untuk memberi jarak antara kotak/background dengann konten
+ 
+ padding tidak bisa diberi nilai negatif
+ padding tidak memiliki nilai auto
+ padding mempengaruhi box/kotak yang dibuat*/
+ div{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 20px 50px;
+    padding:50px;
+    margin:20px 70px 30px 2px;
+    border: 10px solid black;
+ 
+ }
+
+
